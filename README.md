@@ -17,3 +17,4 @@ This repo will be filled with projects from the book _iOS: Big Nerd Ranch Guide_
   	- Dismissing keyboard
   	- Utilizing Tap Gesture Recognizer
   	- Formatting numbers
+  	- Using Delegates

@@ -71,4 +71,17 @@ class ConversionViewController: UIViewController, UITextFieldDelegate {
         print("ConversionViewController loaded its view")
         updateCelsiusLabel()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        
+        let date = Date.init()
+        let calendar = Calendar.current
+        let hour = calendar.component(.hour, from: date)
+        if hour > 15 {
+            textField.attributedPlaceholder = NSAttributedString(string: "value", attributes: [NSAttributedString.Key.foregroundColor : UIColor(red: 1, green: 1, blue: 1, alpha: 0.5)])
+            view.backgroundColor = UIColor(red: 0.169, green: 0.165, blue: 0.149, alpha: 1)
+            UITabBar.appearance().barTintColor = UIColor.black
+        }
+    }
 }

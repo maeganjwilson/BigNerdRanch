@@ -14,3 +14,5 @@ This repo will be filled with projects from the book _iOS: Big Nerd Ranch Guide_
   - Taught the following:
   	- How to use AutoLayout
   	- Allowing for text input
+  	- Dismissing keyboard
+  	- Utilizing Tap Gesture Recognizer

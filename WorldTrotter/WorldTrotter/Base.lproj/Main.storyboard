@@ -17,12 +17,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="212" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c2C-Za-Tmj">
-                                <rect key="frame" x="132" y="28" width="111" height="84"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="value" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kPS-zS-Tr4">
+                                <rect key="frame" x="107.5" y="28" width="160" height="84"/>
+                                <color key="textColor" red="0.88235294119999996" green="0.34509803919999998" blue="0.16078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
-                                <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad"/>
+                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Fahrenheit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qc6-Pb-H0O">
                                 <rect key="frame" x="39.5" y="120" width="296" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
@@ -51,15 +51,18 @@
                         <color key="backgroundColor" red="0.96078431372549022" green="0.95686274509803915" blue="0.94509803921568625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="QbD-gg-MR5" firstAttribute="centerX" secondItem="Qc6-Pb-H0O" secondAttribute="centerX" id="71X-lM-xJD"/>
-                            <constraint firstItem="c2C-Za-Tmj" firstAttribute="centerX" secondItem="Qc6-Pb-H0O" secondAttribute="centerX" id="Ajb-b8-hCd"/>
+                            <constraint firstItem="kPS-zS-Tr4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="765-6j-GSB"/>
                             <constraint firstItem="QbD-gg-MR5" firstAttribute="top" secondItem="Qc6-Pb-H0O" secondAttribute="bottom" constant="8" id="EU9-uF-She"/>
                             <constraint firstItem="OvJ-Bh-vpl" firstAttribute="centerX" secondItem="Qc6-Pb-H0O" secondAttribute="centerX" id="FWk-ib-tk5"/>
+                            <constraint firstItem="OvJ-Bh-vpl" firstAttribute="centerX" secondItem="kPS-zS-Tr4" secondAttribute="centerX" id="SWa-ub-eoo"/>
                             <constraint firstItem="TiN-pb-afa" firstAttribute="centerX" secondItem="Qc6-Pb-H0O" secondAttribute="centerX" id="Sq7-dF-6A2"/>
-                            <constraint firstItem="Qc6-Pb-H0O" firstAttribute="top" secondItem="c2C-Za-Tmj" secondAttribute="bottom" constant="8" id="bQE-DS-ASe"/>
-                            <constraint firstItem="c2C-Za-Tmj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fdb-Kn-ZMM"/>
+                            <constraint firstItem="TiN-pb-afa" firstAttribute="centerX" secondItem="kPS-zS-Tr4" secondAttribute="centerX" id="W4l-i1-dOw"/>
+                            <constraint firstItem="kPS-zS-Tr4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="cvA-no-zIE"/>
+                            <constraint firstItem="Qc6-Pb-H0O" firstAttribute="centerX" secondItem="kPS-zS-Tr4" secondAttribute="centerX" id="foQ-eo-j2U"/>
                             <constraint firstItem="OvJ-Bh-vpl" firstAttribute="top" secondItem="TiN-pb-afa" secondAttribute="bottom" constant="8" id="gfw-Pz-SyL"/>
-                            <constraint firstItem="c2C-Za-Tmj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="oII-ne-IRg"/>
+                            <constraint firstItem="Qc6-Pb-H0O" firstAttribute="top" secondItem="kPS-zS-Tr4" secondAttribute="bottom" constant="8" id="kPL-ur-2oB"/>
                             <constraint firstItem="TiN-pb-afa" firstAttribute="top" secondItem="QbD-gg-MR5" secondAttribute="bottom" constant="8" id="qij-tZ-hyh"/>
+                            <constraint firstItem="QbD-gg-MR5" firstAttribute="centerX" secondItem="kPS-zS-Tr4" secondAttribute="centerX" id="xqT-Pu-mtx"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

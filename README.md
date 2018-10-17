@@ -6,5 +6,5 @@ This repo will be filled with projects from the book _iOS: Big Nerd Ranch Guide_
 
 - [Quiz](https://github.com/maeganjwilson/BigNerdRanch/tree/master/Quiz)
   - An application that will show a question and then reveal the answer when the user taps a button. Tapping another button will show the user a new question
-- [WorldTrotter]()
+- [WorldTrotter](https://github.com/maeganjwilson/BigNerdRanch/tree/master/WorldTrotter)
   - An application that will convert values between degrees Fahrenheit and degrees Celcius
